@@ -1,0 +1,132 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4332,        124]
+NotebookOptionsPosition[      3829,        106]
+NotebookOutlinePosition[      4172,        121]
+CellTagsIndexPosition[      4129,        118]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "Typesetting\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"f", "(", "x", ")"}], " ", "="}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "009f6195-4533-4a5a-a1d5-a10a536e3640"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["a", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "5a92fe63-9a9f-4ead-a2db-7f290620a85f"],
+ " + ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["a", "2"], 
+    SuperscriptBox["x", 
+     RowBox[{"2", " "}]]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "ed664fa8-abf6-4931-8ca1-a4c8ffa93114"],
+ " \nThe slope of the two points is\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"m", " ", "=", " ", 
+    FractionBox[
+     RowBox[{"a", " ", "-", " ", "b"}], 
+     RowBox[{"c", " ", "-", " ", "d"}]]}], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "63c30ec1-719d-4696-bfb9-9b318ad29413"],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"d", " ", "=", " ", 
+    SqrtBox[
+     RowBox[{"(", 
+      RowBox[{"a", "-", 
+       SuperscriptBox["b", "2"], "  ", "+", " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"c", " ", "-", " ", "d"}], ")"}], "2"]}]}]], " "}], 
+   TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "89098a8e-3d70-450f-8e97-eb913d3c4c67"],
+ " square root notation\n\n"
+}], "Text",
+ CellChangeTimes->{{3.7124148063239837`*^9, 3.7124148128673577`*^9}, {
+  3.712414852643633*^9, 3.7124149155392303`*^9}, {3.712414958434684*^9, 
+  3.712415035667101*^9}, {3.712415085137931*^9, 3.712415104146018*^9}, {
+  3.71241536871978*^9, 3.712415407024971*^9}, {3.7124154473592777`*^9, 
+  3.7124155991979623`*^9}, {3.712415658654363*^9, 
+  3.7124156592303963`*^9}},ExpressionUUID->"1e1a702e-38c5-4802-9e3a-\
+0d26a7c9a595"],
+
+Cell[BoxData[
+ GraphicsBox[{PointBox[{0.24711473183978278`, 0.5678886625933469}], 
+   LineBox[{{0.11948404616429059`, 0.2040054310930075}, {1.0264765784114054`, 
+    0.8421588594704685}}], PointBox[{0.3584521384928718, 0.4375424304141209}],
+    PointBox[{0.3937542430414121, 0.49185336048879846`}], 
+   PointBox[{0.43448744059742034`, 0.47556008146639517`}], 
+   PointBox[{0.4779361846571623, 0.4945689069925323}], 
+   PointBox[{0.5132382892057028, 0.39137813985064507`}], 
+   PointBox[{0.5078071961982349, 0.4456890699253224}], 
+   PointBox[{0.8255261371350986, 0.7606924643584522}], 
+   PointBox[{0.9341479972844537, 0.7308214528173795}], 
+   PointBox[{0.904276985743381, 0.7009504412763069}], 
+   PointBox[{0.8010862186014938, 0.6520706042090971}]},
+  ContentSelectable->True,
+  ImagePadding->{{0., 0.}, {0., 0.}},
+  ImageSize->{491., 372.},
+  PlotRange->{{0., 1.3333333333333335`}, {0., 1.}},
+  PlotRangePadding->Automatic]], "Input",
+ CellChangeTimes->{{3.71241582311677*^9, 
+  3.712415856652688*^9}},ExpressionUUID->"c5cc03fa-faeb-48a4-adbe-\
+378371db4208"],
+
+Cell[BoxData["    "], "Input",
+ CellChangeTimes->{{3.7124159065945444`*^9, 3.712416019307556*^9}, {
+   3.712416067739326*^9, 3.7124160914026794`*^9}, {3.712416152698186*^9, 
+   3.71241619298649*^9}, {3.71241623111451*^9, 3.7124163159291086`*^9}, {
+   3.7124164666599493`*^9, 3.71241654100318*^9}, 
+   3.7124183823790145`*^9},ExpressionUUID->"7f193b3d-8d28-49fc-8d80-\
+cb2d74238193"]
+},
+WindowSize->{759, 815},
+WindowMargins->{{-1, Automatic}, {73, Automatic}},
+FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (April 18, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1816, 54, 187, "Text", "ExpressionUUID" -> \
+"1e1a702e-38c5-4802-9e3a-0d26a7c9a595"],
+Cell[2377, 76, 1063, 20, 387, "Input", "ExpressionUUID" -> \
+"c5cc03fa-faeb-48a4-adbe-378371db4208"],
+Cell[3443, 98, 382, 6, 30, "Input", "ExpressionUUID" -> \
+"7f193b3d-8d28-49fc-8d80-cb2d74238193"]
+}
+]
+*)
+

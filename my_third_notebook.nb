@@ -1,0 +1,110 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2869,        100]
+NotebookOptionsPosition[      2005,         72]
+NotebookOutlinePosition[      2348,         87]
+CellTagsIndexPosition[      2305,         84]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Basic Numerical Computation
+Name: Krystal Maughan
+
+Section 1: 
+
+
+\
+\>", "Text",
+ CellChangeTimes->{{3.712418496745556*^9, 3.7124185561849556`*^9}, {
+  3.712418614713303*^9, 
+  3.7124186789359765`*^9}},ExpressionUUID->"56d3c2f0-b730-46a3-82b1-\
+6a1d0e949b0c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"a1", " ", "=", " ", "2."}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Sin", "[", "a1", "]"}]}], "Input",
+ CellChangeTimes->{{3.712418682683191*^9, 3.7124187629837837`*^9}, 
+   3.7124187936725388`*^9},ExpressionUUID->"6a98bb44-9f42-4b3b-afc5-\
+80112009cdb8"],
+
+Cell[BoxData["0.9092974268256817`"], "Output",
+ CellChangeTimes->{{3.712418773290373*^9, 
+  3.712418796352692*^9}},ExpressionUUID->"236f41e3-9107-4b37-8256-\
+6e1aa9ee80d6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"a2", " ", "=", " ", 
+  RowBox[{"N", "[", 
+   RowBox[{"2", ",", " ", "20"}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Sin", "[", "a2", "]"}]}], "Input",
+ CellChangeTimes->{{3.7124188567961493`*^9, 
+  3.71241886887084*^9}},ExpressionUUID->"50facec9-17f0-4cf5-9e66-\
+b13101b361dd"],
+
+Cell[BoxData["2.`20."], "Output",
+ CellChangeTimes->{
+  3.7124188707889495`*^9},ExpressionUUID->"1fdb1e4a-8595-45ed-8671-\
+e05d553b4959"],
+
+Cell[BoxData["0.9092974268256816953960198659117448427`20.038429368862868"], \
+"Output",
+ CellChangeTimes->{
+  3.71241887078995*^9},ExpressionUUID->"eef92b7d-3742-469a-9073-bb6f3f48f663"]
+}, Open  ]]
+},
+WindowSize->{759, 815},
+WindowMargins->{{28, Automatic}, {Automatic, 70}},
+FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (April 18, 2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 268, 12, 144, "Text", "ExpressionUUID" -> \
+"56d3c2f0-b730-46a3-82b1-6a1d0e949b0c"],
+Cell[CellGroupData[{
+Cell[851, 36, 292, 6, 50, "Input", "ExpressionUUID" -> \
+"6a98bb44-9f42-4b3b-afc5-80112009cdb8"],
+Cell[1146, 44, 172, 3, 30, "Output", "ExpressionUUID" -> \
+"236f41e3-9107-4b37-8256-6e1aa9ee80d6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1355, 52, 305, 7, 50, "Input", "ExpressionUUID" -> \
+"50facec9-17f0-4cf5-9e66-b13101b361dd"],
+Cell[1663, 61, 137, 3, 30, "Output", "ExpressionUUID" -> \
+"1fdb1e4a-8595-45ed-8671-e05d553b4959"],
+Cell[1803, 66, 186, 3, 63, "Output", "ExpressionUUID" -> \
+"eef92b7d-3742-469a-9073-bb6f3f48f663"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
