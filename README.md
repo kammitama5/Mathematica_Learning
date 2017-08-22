@@ -22,5 +22,13 @@ a2 = N[2, 20] -> 2 means 2 is numerical and 20 is accuracy (ie 20 decimals)
 one-based indexing
 
 Length[Listname] -> gives length of list
+```
+
+## Plotting Graphs
+
+```
+functiontoplot = x + 5 
+Plot[function, {x, value, value}, PlotRange->{range1, range2}, PlotStyle->{Thick,Color}]
+Two figures overlapping -> Show[Figure1, Figure2]
 
 ```
