@@ -19,5 +19,8 @@ Alt + . -> Abort Computation
 
 a2 = N[2, 20] -> 2 means 2 is numerical and 20 is accuracy (ie 20 decimals)
 
+one-based indexing
+
+Length[Listname] -> gives length of list
 
 ```
