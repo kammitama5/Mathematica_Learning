@@ -1,5 +1,5 @@
 # Mathematica_Learning
-I want to teach myself Mathematica
+I want to teach myself Mathematica. All notes are from using Mathematica 11.1.1
 
 ## Started with this [tutorial](https://www.youtube.com/watch?v=R4uJMj4TJaQ&list=PLdr5XE6u9kEpS95yKoZwl6kidiFaLnU5s&index=7)
 
