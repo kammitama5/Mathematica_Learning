@@ -32,3 +32,50 @@ Plot[function, {x, value, value}, PlotRange->{range1, range2}, PlotStyle->{Thick
 Two figures overlapping -> Show[Figure1, Figure2]
 
 ```
+
+## Solving Linear and Simultaneous Equations 
+
+```
+Solve[equation == 0, value  to solve for]
+
+= is assignment, so we use ==
+
+Simplify[%] lets Mathematica simplify as best it can
+
+or Expand[%]
+
+Ctrl + / - Fraction and arrow for denominator 
+
+Gives you sets of solutions
+
+FindRoot -> if you display a graph, you can find a precise root 
+FindRoot[Var == 0, {x, val}]
+```
+## Precision
+
+```
+WorkingPrecision -> gives to specified number of digits
+```
+
+## Loops
+
+```
+For loop ->
+Define list = {1, 3, 5};
+Arr = {};
+Do[
+	temp = Guess[[k]];
+	temp = 2k + k;
+	Arr = Append[Arr, temp],
+	{k, 1, 3}];
+Arr
+]
+
+returns {3, 6, 9}
+```
+
+- Assumption is that Sin, Cos etc is in Radians
+
+## Questions
+
+- When would I use a Contour/ Implicit Plot
