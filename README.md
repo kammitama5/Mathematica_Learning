@@ -33,6 +33,20 @@ Two figures overlapping -> Show[Figure1, Figure2]
 
 ```
 
+- Plotting by points
+
+```
+points = ListPlot [{1,2}, {2,2}, etc]
+PlotStyle -> PointSize[.03] where [.03 is size of the point]
+```
+
+- Show points after having defined them without displaying 
+
+```
+Show[functions, points]
+```
+
+
 ## Solving Linear and Simultaneous Equations 
 
 ```
